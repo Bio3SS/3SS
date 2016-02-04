@@ -1,13 +1,13 @@
 Setup
 =====
 
-* Clone this repo.
+* Clone this repo (`git clone git@github.com:Bio3SS/3SS.git` or `git clone https://github.com/Bio3SS/3SS.git`), and go there (`cd 3SS`)
 
 * Type `make`
 
 * This will produce a bunch of directories by cloning a bunch of repos (probably bad design)
 
-* Change directories to Bio3SS_content (Type `cd Bio3SS_content/`)
+* Change directories to Bio3SS_content (`cd Bio3SS_content/`)
 
 * Type `make` to make something I made recently, or `make structure.draft.pdf` to get the draft slides for the structure unit
   * This will probably produce a fatal error because it is working out its own latex dependencies. That's fine. 
