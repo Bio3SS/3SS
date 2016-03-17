@@ -17,7 +17,7 @@ Makefile: $(ms) $(coursedirs)
 $(ms):
 	cd $(dir $(ms)) && git clone $(msrepo)/$(notdir $(ms)).git
 
-$(coursedirs): local.mk
+$(coursedirs): 
 	$(MAKE) -f stuff.mk $(gitroot)
 	cd $(gitroot) && git clone $(courserepo)/$(notdir $@).git
 	cp local.mk $@

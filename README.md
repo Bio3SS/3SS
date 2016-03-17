@@ -20,7 +20,7 @@ If you are making slides (or handouts that happen to have downloaded images), yo
 
 __or__:
 
-* Don't.  This will let make around the web and download all of the image files whose locations I have archived (they were all identified by google as being tagged for non-commercial reuse).
+* Don't.  This will let make go around the web and download all of the image files whose locations I have archived (they were all identified by google as being tagged for non-commercial reuse).
 
 __Then__:
 
