@@ -1,3 +1,5 @@
+This looks like it's pre-modules. Gut it and set it up with a new module-based style
+
 Setup
 =====
 
