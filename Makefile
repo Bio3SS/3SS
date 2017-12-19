@@ -8,9 +8,11 @@ target pngtarget pdftarget vtarget acrtarget: Makefile
 
 # make files
 
-Sources = Makefile .gitignore README.md stuff.mk LICENSE.md
-include stuff.mk
-# include $(ms)/perl.def
+Sources = Makefile .gitignore README.md sub.mk LICENSE.md
+include sub.mk
+
+Sources += 3SS.mk
+include 3SS.mk
 
 ##################################################################
 
@@ -18,13 +20,17 @@ include stuff.mk
 
 ######################################################################
 
-### Makestuff
+## Make modules
 
-## Change this name to download a new version of the makestuff directory
-# Makefile: start.makestuff
+Makefile: Lectures
+
+######################################################################
+
+### Makestuff
 
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
+-include $(ms)/modules.mk
 
 # -include $(ms)/wrapR.mk
 # -include $(ms)/oldlatex.mk
