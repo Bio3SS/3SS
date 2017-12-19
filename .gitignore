@@ -15,13 +15,10 @@ target.mk
 *.Rlog
 *.r
 .Rhistory
-
 *.wrapR.*
 
 local.mk
 
-testdir/
-.testdir/
-subclone_dir/
+clonedir
+dotdir
 
-*.makestuff
