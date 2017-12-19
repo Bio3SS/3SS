@@ -22,7 +22,7 @@ include 3SS.mk
 
 ## Make modules
 
-Makefile: Lectures
+Makefile: Lectures Lectures/Makefile
 
 ######################################################################
 
