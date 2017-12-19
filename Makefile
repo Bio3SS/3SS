@@ -18,6 +18,7 @@ include sub.mk
 
 ## Make modules
 
+mdirs += Lectures
 Makefile: Lectures Lectures/Makefile
 
 ######################################################################
