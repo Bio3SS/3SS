@@ -5,6 +5,13 @@ target = Makefile
 
 ##################################################################
 
+## Make modules (does this have to be above module includes?)
+
+mdirs += Lectures
+Makefile: Lectures Lectures/Makefile
+
+######################################################################
+
 # make files
 
 ## Before sub.mk; and make sure Sources doesn't get reset
@@ -16,12 +23,6 @@ include sub.mk
 
 ##################################################################
 
-## Make modules
-
-mdirs += Lectures
-Makefile: Lectures Lectures/Makefile
-
-######################################################################
 
 ### Makestuff
 
