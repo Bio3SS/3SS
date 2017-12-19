@@ -21,8 +21,9 @@ include 3SS.mk
 Sources += Makefile .gitignore README.md sub.mk LICENSE.md
 include sub.mk
 
-##################################################################
+Sources += $(mdirs)
 
+##################################################################
 
 ### Makestuff
 
