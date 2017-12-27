@@ -8,7 +8,6 @@ target = Makefile
 ## Make modules (does this have to be above module includes?)
 
 mdirs += Lectures
-Makefile: Lectures Lectures/Makefile
 
 ######################################################################
 
@@ -22,6 +21,11 @@ Sources += Makefile .gitignore README.md sub.mk LICENSE.md
 include sub.mk
 
 Sources += $(mdirs)
+
+##################################################################
+
+mfiles = $(mdirs:%=%/Makefile)
+mfiles: $(mdirs) $(mfiles)
 
 ##################################################################
 

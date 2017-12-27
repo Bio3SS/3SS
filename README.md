@@ -1,4 +1,18 @@
-This looks like it's pre-modules. Gut it and set it up with a new module-based style
+
+Setup
+=====
+
+* Clone this repo (`git clone git@github.com:Bio3SS/3SS.git` or `git clone https://github.com/Bio3SS/3SS.git`), and go there (`cd 3SS`)
+
+* `make makestuff` – add submodule with default rules
+
+* `make mfiles` – add other submodules
+
+* `make rmpull` – synchronize modules recursively (they will grab their own versions of makestuff) and put them on their master branches
+
+----------------------------------------------------------------------
+
+__Not updated below here__
 
 Setup
 =====
