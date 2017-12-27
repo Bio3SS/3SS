@@ -3,6 +3,8 @@ This looks like it's pre-modules. Gut it and set it up with a new module-based s
 Setup
 =====
 
+__old directions__
+
 * Clone this repo (`git clone git@github.com:Bio3SS/3SS.git` or `git clone https://github.com/Bio3SS/3SS.git`), and go there (`cd 3SS`)
 
 * Type `make`
