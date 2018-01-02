@@ -9,6 +9,10 @@ target = Makefile
 
 mdirs += Lectures
 
+## Lots of course info, co-ordination stuff
+
+Sources += notes.txt
+
 ######################################################################
 
 # make files
