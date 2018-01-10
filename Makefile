@@ -32,11 +32,17 @@ include upstuff.mk
 
 ##################################################################
 
-### Makestuff
+## Contained repos
+
+## A lot of things go inside Lectures, which is a working repo 
+## and also has display content
+
+clonedirs += Lectures
+Lectures:
+	git clone https://github.com/Bio3SS/$@.git $@
+
+######################################################################
 
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
--include $(ms)/modules.mk
-
-# -include $(ms)/wrapR.mk
-# -include $(ms)/oldlatex.mk
+# -include $(ms)/modules.mk
