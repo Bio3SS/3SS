@@ -1,4 +1,8 @@
 
+## 3SS
+## This is the container repo for 3SS content
+## Should be a hybrid repo, but don't feel like bothering right now
+
 current: target
 target = Makefile
 -include target.mk
