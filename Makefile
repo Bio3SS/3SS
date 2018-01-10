@@ -21,7 +21,7 @@ Sources += notes.txt
 Sources += 3SS.mk
 include 3SS.mk
 
-Sources += Makefile .gitignore README.md sub.mk LICENSE.md
+Sources += Makefile .ignore README.md sub.mk LICENSE.md
 include sub.mk
 
 Sources += $(mdirs)
