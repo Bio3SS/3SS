@@ -11,7 +11,7 @@ target = Makefile
 
 ## Make modules (does this have to be above module includes?)
 
-mdirs += Lectures
+clonedirs += Lectures
 
 ## Lots of course info, co-ordination stuff
 
@@ -21,19 +21,14 @@ Sources += notes.txt
 
 # make files
 
+## Need to figure out how to tag things for modules vs. clones.
+## Do we need another repo type?
 ## Before sub.mk; and make sure Sources doesn't get reset
 Sources += 3SS.mk
-include 3SS.mk
+# include 3SS.mk
 
-Sources += Makefile .ignore README.md sub.mk LICENSE.md
-include sub.mk
-
-Sources += $(mdirs)
-
-##################################################################
-
-mfiles = $(mdirs:%=%/Makefile)
-mfiles: $(mdirs) $(mfiles)
+Sources += Makefile .ignore README.md upstuff.mk LICENSE.md
+include upstuff.mk
 
 ##################################################################
 
