@@ -1,7 +1,7 @@
 
 ## 3SS
 ## This is the container repo for 3SS content
-## Should be a hybrid repo, but don't feel like bothering right now
+## Working on making this a hybrid repo
 
 current: target
 target = Makefile
@@ -10,8 +10,6 @@ target = Makefile
 ##################################################################
 
 ## Make modules (does this have to be above module includes?)
-
-clonedirs += Lectures
 
 ## Lots of course info, co-ordination stuff
 
@@ -34,11 +32,21 @@ include upstuff.mk
 
 ## Contained repos
 
-## A lot of things go inside Lectures, which is a working repo 
+## Original, super-overloaded "content" repo
+
+clonedirs += content
+content:
+	git clone https://github.com/Bio3SS/Bio3SS_content.git $@
+
+## Lectures is a working repo with a lot of modules,
 ## and also has display content
 
 clonedirs += Lectures
 Lectures:
+	git clone https://github.com/Bio3SS/$@.git $@
+
+clonedirs += Homework
+Homework:
 	git clone https://github.com/Bio3SS/$@.git $@
 
 ######################################################################
