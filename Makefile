@@ -33,20 +33,24 @@ include upstuff.mk
 ## Contained repos
 
 ## Original, super-overloaded "content" repo
-
 clonedirs += content
 content:
 	git clone https://github.com/Bio3SS/Bio3SS_content.git $@
 
 ## Lectures is a working repo with a lot of modules,
 ## and also has display content
-
 clonedirs += Lectures
 Lectures:
 	git clone https://github.com/Bio3SS/$@.git $@
 
+## Homework for homework; also a working repo
 clonedirs += Homework
 Homework:
+	git clone https://github.com/Bio3SS/$@.git $@
+
+## Tests is an older repo than many of these and may have issues
+clonedirs += Tests
+Tests:
 	git clone https://github.com/Bio3SS/$@.git $@
 
 ######################################################################
