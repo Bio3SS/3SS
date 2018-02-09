@@ -49,6 +49,10 @@ clonedirs += Homework
 Homework:
 	git clone https://github.com/Bio3SS/$@.git $@
 
+clonedirs += Tests
+Tests:
+	git clone https://github.com/Bio3SS/$@.git $@
+
 ######################################################################
 
 -include $(ms)/git.mk
