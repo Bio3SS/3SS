@@ -32,7 +32,7 @@ include upstuff.mk
 ## Contained repos
 
 ## Original, super-overloaded "content" repo
-clonedirs += content
+Ignore += content
 content:
 	git clone https://github.com/Bio3SS/Bio3SS_content.git $@
 
