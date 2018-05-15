@@ -52,7 +52,7 @@ clonedirs += Tests
 Tests:
 	git clone https://github.com/Bio3SS/$@.git $@
 
-## 
+## Grading should eventually take Tests as a submodule
 clonedirs += Grading
 Grading:
 	git clone https://github.com/Bio3SS/$@.git $@
