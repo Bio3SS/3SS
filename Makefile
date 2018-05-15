@@ -52,6 +52,11 @@ clonedirs += Tests
 Tests:
 	git clone https://github.com/Bio3SS/$@.git $@
 
+## 
+clonedirs += Grading
+Grading:
+	git clone https://github.com/Bio3SS/$@.git $@
+
 ######################################################################
 
 -include $(ms)/git.mk
