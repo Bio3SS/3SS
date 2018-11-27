@@ -8,6 +8,10 @@ target = Makefile
 
 ##################################################################
 
+screen_session:
+
+##################################################################
+
 Sources += notes.txt
 
 ######################################################################
@@ -43,13 +47,18 @@ clonedirs += Homework
 Homework:
 	git clone https://github.com/Bio3SS/$@.git $@
 
+######################################################################
+
+## 2018 Nov 27 (Tue) I don't understand the nesting structure with these repos
+
+## Old note:
 ## Tests is an older repo than many of these and may have issues
-clonedirs += Tests
+resting += Tests
 Tests:
 	git clone https://github.com/Bio3SS/$@.git $@
 
 ## Grading should eventually take Tests as a submodule
-clonedirs += Grading
+resting += Grading
 Grading:
 	git clone https://github.com/Bio3SS/$@.git $@
 
