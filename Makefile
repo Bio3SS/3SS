@@ -8,7 +8,7 @@ target = Makefile
 
 ##################################################################
 
-screen_session:
+screen_session: Lectures.screen Lectures/web.screen
 
 ##################################################################
 
