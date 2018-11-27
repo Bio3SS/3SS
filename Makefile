@@ -8,10 +8,6 @@ target = Makefile
 
 ##################################################################
 
-## Make modules (does this have to be above module includes?)
-
-## Lots of course info, co-ordination stuff
-
 Sources += notes.txt
 
 ######################################################################
