@@ -1,6 +1,6 @@
 ## 3SS
 ## This is the container repo for 3SS content
-## Working on making this a hybrid repo
+## Working on making this a simple container. What does it actually need?
 
 current: target
 target = Makefile
@@ -8,7 +8,7 @@ target = Makefile
 
 ##################################################################
 
-screen_session: Lectures.screen Lectures/web.screen
+screen_session: ../Lectures.vscreen ../Lectures/web.vscreen
 
 ##################################################################
 
@@ -35,6 +35,9 @@ include upstuff.mk
 Ignore += content
 content:
 	git clone https://github.com/Bio3SS/Bio3SS_content.git $@
+
+### These repos should stay here so they can keep their non-specific names?
+### Does that mean we have to keep other things just for parallelism??
 
 ## Lectures is a working repo with a lot of modules,
 ## and also has display content
