@@ -1,3 +1,5 @@
+Avenue setup link:
+	* http://avenue.mcmaster.ca/course/course_request_check.php
 
 2018 Nov 26 (Mon)
 =================
