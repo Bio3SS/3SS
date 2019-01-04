@@ -8,7 +8,7 @@ target = Makefile
 
 ##################################################################
 
-screen_session: Lectures.vscreen Lectures/web.vscreen
+screen_session: Lectures.vscreen web.vscreen
 
 ##################################################################
 
@@ -41,9 +41,12 @@ content:
 
 ## Lectures is a working repo with a lot of modules,
 ## and also has display content
-clonedirs += Lectures
+clonedirs += Lectures web
 Lectures:
 	git clone https://github.com/Bio3SS/$@.git $@
+
+web:
+	git clone https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
 ## Homework for homework; also a working repo
 ## I guess the idea is: parallel to Lectures, but private?
