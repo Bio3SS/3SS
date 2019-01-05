@@ -68,7 +68,7 @@ Tests:
 
 clonedirs += material
 material:
-	git submodule add -b master https://github.com/Bio3SS/Evaluation_materials $@
+	git clone https://github.com/Bio3SS/Evaluation_materials $@
 
 ## Grading should eventually take Tests as a submodule
 resting += Grading
