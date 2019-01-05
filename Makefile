@@ -48,7 +48,8 @@ Lectures:
 web:
 	git clone https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
-## Homework for homework; also a working repo
+## Homework: a public directory with Homework machinery
+
 ## I guess the idea is: parallel to Lectures, but private?
 ## No, not even private?!
 clonedirs += Homework
