@@ -49,29 +49,33 @@ web:
 	git clone https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
 ## Homework: a public directory with Homework machinery
+## It calls on assign, which is the private directory
+## The linkages to other submodules are unclear to me.
 
-## I guess the idea is: parallel to Lectures, but private?
-## No, not even private?!
 clonedirs += Homework
 Homework:
 	git clone https://github.com/Bio3SS/$@.git $@
 
 ## Tests 
 
-######################################################################
-
 ## 2018 Nov 27 (Tue) I don't understand the nesting structure with these repos
+## Tests is old and maybe confused
+## It is a public machinery repo that calls on the private repo Evaluation_materials
 
-## Old note:
-## Tests is an older repo than many of these and may have issues
 resting += Tests
 Tests:
 	git clone https://github.com/Bio3SS/$@.git $@
+
+clonedirs += material
+material:
+	git submodule add -b master https://github.com/Bio3SS/Evaluation_materials $@
 
 ## Grading should eventually take Tests as a submodule
 resting += Grading
 Grading:
 	git clone https://github.com/Bio3SS/$@.git $@
+
+Ignore += $(resting)
 
 ######################################################################
 
