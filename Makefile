@@ -12,7 +12,7 @@ screen_session: Lectures.vscreen web.vscreen
 
 ##################################################################
 
-Sources += notes.txt
+Sources += notes.txt todo.mkd
 
 ######################################################################
 
