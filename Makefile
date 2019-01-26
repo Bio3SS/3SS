@@ -8,7 +8,7 @@ target = Makefile
 
 ##################################################################
 
-screen_session: Lectures.vscreen web.vscreen
+screen_session: Lectures.vscreen web.vscreen Homework.vscreen
 
 ##################################################################
 
