@@ -6,5 +6,3 @@
 
 * No Intro to R assignment (this week)
 
-Mike hours Wed 11:30-12:20
-Thu 10:30-11:20
