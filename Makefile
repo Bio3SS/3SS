@@ -9,6 +9,7 @@ target = Makefile
 ##################################################################
 
 screen_session: Lectures.vscreen web.vscreen Homework.vscreen
+new_session: Tests.vscreen Tests/material.vscreen
 
 ##################################################################
 
@@ -73,7 +74,7 @@ material:
 	git clone https://github.com/Bio3SS/Evaluation_materials $@
 
 ## Grading should eventually take Tests as a submodule
-## Or something, I guess we try to pass keys
+## Or something, keys need to be moved from Tests to Grading
 resting += Grading
 Grading:
 	git clone https://github.com/Bio3SS/$@.git $@

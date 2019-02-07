@@ -6,4 +6,4 @@
 
 ----------------------------------------------------------------------
 
-* No Intro to R assignment (promulgate b4 break)
+* Intro to R assignment (promulgate b4 break)
