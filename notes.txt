@@ -1,7 +1,5 @@
 
-* Midterm announcement (Thu)
 * Lecture notes!
-* Release complete notes (?) 
 * Poll everywhere tally
 
 ----------------------------------------------------------------------
