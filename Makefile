@@ -65,7 +65,7 @@ Homework:
 ## Tests is old and maybe confused
 ## It is a public machinery repo that calls on the private repo Evaluation_materials
 
-clonedir += Tests
+clonedirs += Tests
 Tests:
 	git clone https://github.com/Bio3SS/$@.git $@
 
