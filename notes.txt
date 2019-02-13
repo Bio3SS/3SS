@@ -1,2 +1,11 @@
+<<<<<<< HEAD
 * No Intro to R assignment (this week)
+=======
 
+* Lecture notes!
+* Poll everywhere tally
+
+----------------------------------------------------------------------
+>>>>>>> 9c77d2057e4bde25cd1415485a663511f73415e4
+
+* Intro to R assignment (promulgate b4 break)

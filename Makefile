@@ -9,6 +9,7 @@ target = Makefile
 ##################################################################
 
 screen_session: Lectures.vscreen web.vscreen Homework.vscreen
+new_session: Tests.vscreen Tests/material.vscreen
 
 ##################################################################
 
@@ -64,7 +65,7 @@ Homework:
 ## Tests is old and maybe confused
 ## It is a public machinery repo that calls on the private repo Evaluation_materials
 
-resting += Tests
+clonedirs += Tests
 Tests:
 	git clone https://github.com/Bio3SS/$@.git $@
 
