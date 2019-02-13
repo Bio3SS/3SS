@@ -1,8 +1,2 @@
-* This week in tutorials
-* Assignment key (by MONDAY)
-* Poll everywhere tally
-* Circulate past midterms
-	* Get questions suggestions from young people
-
 * No Intro to R assignment (this week)
 
