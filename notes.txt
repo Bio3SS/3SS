@@ -1,7 +1,0 @@
-
-* Lecture notes!
-* Poll everywhere tally
-
-----------------------------------------------------------------------
-
-* Intro to R assignment (promulgate b4 break)
