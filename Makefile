@@ -71,7 +71,7 @@ clonedirs += Tests
 Tests:
 	git clone https://github.com/Bio3SS/$@.git $@
 
-clonedirs += material
+## clonedirs += material
 material:
 	git clone https://github.com/Bio3SS/Evaluation_materials $@
 
