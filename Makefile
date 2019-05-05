@@ -75,9 +75,8 @@ Tests:
 material:
 	git clone https://github.com/Bio3SS/Evaluation_materials $@
 
-## Grading should eventually take Tests as a submodule
-## Or something, keys need to be moved from Tests to Grading
-resting += Grading
+## Tests and Grading need to link for test keys probably pardirs
+clonedirs += Grading
 Grading:
 	git clone https://github.com/Bio3SS/$@.git $@
 
