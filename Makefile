@@ -64,16 +64,11 @@ Homework:
 ## Tests 
 
 ## 2018 Nov 27 (Tue) I don't understand the nesting structure with these repos
-## Tests is old and maybe confused
-## It is a public machinery repo that calls on the private repo Evaluation_materials
 
+## Tests is a public machinery repo that calls on the private repo Evaluation_materials
 clonedirs += Tests
 Tests:
 	git clone https://github.com/Bio3SS/$@.git $@
-
-## clonedirs += material
-material:
-	git clone https://github.com/Bio3SS/Evaluation_materials $@
 
 ## Tests and Grading need to link for test keys probably pardirs
 clonedirs += Grading
